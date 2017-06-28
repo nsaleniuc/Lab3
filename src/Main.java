@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter an integer");
+        System.out.print("Enter an integer:");
         userNum = scan.nextInt();
 
 
@@ -16,7 +16,8 @@ public class Main {
         System.out.println("======      =======     =====");
 
         for (int i = 1; i <= userNum; i++) {
-            System.out.println(i + " " + (i * i) + " " + (i * i * i));
+            System.out.println(i + "            " + (i * i) +
+                    "          " + (i * i * i));
         }
 
     }
