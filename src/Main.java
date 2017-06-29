@@ -29,6 +29,7 @@ public class Main {
             System.out.println("Continue? (y/n)");
             cont = scan.nextLine();
         }
+        System.out.println("Goodbye");
 
     }
 }
