@@ -7,13 +7,13 @@ public class Main {
 
         int userNum;
         String cont = "y";
-        int numberOfSpaces = 11;
 
         Scanner scan = new Scanner(System.in);
 
         while (cont.equalsIgnoreCase("y")) {
             System.out.print("Enter an integer:");
             userNum = scan.nextInt();
+
             Formatter fmt;
 
             System.out.println("Number    Squared     Cubed");
