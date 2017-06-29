@@ -21,7 +21,7 @@ public class Main {
 
             for (int i = 1; i <= userNum; i++) {
                 fmt = new Formatter();
-                fmt.format("%4d      %4d       %4d", (i), (i*i), (i*i*i));
+                fmt.format("%6d    %6d    %7d", (i), (i*i), (i*i*i));
                 System.out.println(fmt);
             }
 
